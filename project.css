@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+nav {
+  background-color:rgb(16, 16, 16);
+  color: aliceblue;
+  height: 100vh;
+  width:20vw;
+}
+main {
+  display:inline;
+  height:100vh;
+  width:80vw;
+  align-items: center;
+  text-align: center;
+}
+ul{
+  padding-left: 1em;
+}
+li{
+  list-style-type: none;
+}
+nav li{
+  padding-left: 1em;
+}
+nav *{
+  margin-bottom: 0.5em;
+  border-radius: 0.5em;
+  padding:0.2em;
+}
+nav li:hover {
+  background-color: rgb(60, 60, 60);
+}
+.neww{
+  margin-top: 1em;
+  margin-bottom: 2em;
+  float: left;
+}
+
+header{
+  position: absolute;
+  top:0.6em;
+  left:21vw;
+  border-style: none;
+}
+
+.idea{
+  display: inline-block;
+  border: 0.05em;
+  border-radius: 1em;
+  border-color: rgb(154, 152, 152);
+  border-style: solid;
+  width: 25vw;
+  height:8vh;
+  padding:0.5em 1em 0em 1em;
+  margin: 0.2em;
+  text-align: left;
+}
+.x{
+  margin-top:0.5em;
+  font-size: 0.85em;
+  color: gray;
+}
+
+.ideas{
+  justify-content: space-around;
+  align-self: center;
+  margin-top: 15vh;
+  padding:0em 10vw 0em 10vw;
+}
+
+input{
+  width: 55vw;
+  border-radius: 0.5em;
+  padding:0.4em;
+  font-size:1.2em;
+  border-width: 0.1em;
+}
+
+.help{
+  position: absolute;
+  bottom:1vh;
+  right:1vw;
+  border-style: solid;
+  border-radius: 1em;
+  border-width: 0.01em;
+  width: 1em;
+}
+
+.name{
+  background-image:url("c:\Users\vincent.winkrantz\Pictures\ChatGPT-Logo.png");
+  background-position-y:5vh;
+  margin-top:35vh;
+  font-size:2em;
+}
+
+a{
+  color:aliceblue;
+  text-decoration: none;
+}
+
+.version{
+  border-style:none;
+  font-size: 1.3em;
+}
+
+.bold{
+  font-weight: bold;
+}
+hr{
+  padding:0;
+}
+
+.date{
+  color: gray;
+  font-size: 0.7em;
+  margin-bottom: 0.1em;
+}
+
+footer{
+  padding-top: 0.7em;
+  color: rgb(107, 107, 107);
+  font-size:0.9em;
+  margin-bottom: 1em;
+}

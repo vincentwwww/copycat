@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Learn Grid</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+      body{
+        margin:0;
+      }
+      main{
+        width:100vw;
+        height:100vh;
+      }
+      .box{
+        outline:2px solid gray;
+        outline-offset: -2px;
+        background-color: black;
+      }
+      .grid-container{
+        background-color: darkslategray;
+        display:grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+      }
+      #content-type1{
+        background-color: darkblue;
+      }
+      #content-type2{
+        background-color: forestgreen;
+      }
+      #content-type3{
+        background-color: firebrick;
+      }
+      #content-type4{
+        background-color: darkmagenta;
+      }
+      #content-type5{
+        background-color:lightseagreen;
+      }
+      #content-type6{
+        background-color:darkgoldenrod;
+      }
+      #content-type7{
+        background-color:lightcoral;
+      }
+      #content-type8{
+        background-color:indigo;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="grid-container">
+      <section class="box" id="content-type1"></section>
+      <section class="box" id="content-type2"></section>
+      <section class="box" id="content-type3"></section>
+      <section class="box" id="content-type4"></section>
+      <section class="box" id="content-type5"></section>
+      <section class="box" id="content-type6"></section>
+      <section class="box" id="content-type7"></section>
+      <section class="box" id="content-type8"></section>
+      <section class="box" id="content-type1"></section>
+      <section class="box" id="content-type2"></section>
+      <section class="box" id="content-type3"></section>
+      <section class="box" id="content-type4"></section>
+      <section class="box" id="content-type5"></section>
+      <section class="box" id="content-type6"></section>
+      <section class="box" id="content-type7"></section>
+      <section class="box" id="content-type8"></section>
+    </main>
+  </body>
+</html>
